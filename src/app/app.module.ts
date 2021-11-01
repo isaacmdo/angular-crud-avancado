@@ -13,22 +13,16 @@ import { RodapeComponent } from './shared/components/rodape/rodape.component';
 
 import { FilmesModule } from './filmes/filmes.module';
 
-
 @NgModule({
-  declarations: [
-    AppComponent,
-    TopoComponent,
-    RodapeComponent,
-  ],
+  declarations: [AppComponent, TopoComponent, RodapeComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     LayoutModule,
     MaterialModule,
     AppRoutingModule,
-    FilmesModule
   ],
   providers: [{ provide: MAT_DATE_LOCALE, useValue: 'pt' }],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

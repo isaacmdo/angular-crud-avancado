@@ -5,35 +5,30 @@ import { CadastroFilmesComponent } from './filmes/cadastro-filmes/cadastro-filme
 import { ListagemFilmesComponent } from './filmes/listagem-filmes/listagem-filmes.component';
 
 const routes: Routes = [
-
   {
-      path: '',
-      redirectTo: 'filmes',
-      pathMatch: 'full'
+    path: '',
+    redirectTo: 'filmes',
+    pathMatch: 'full',
   },
   {
     path: 'filmes',
     children: [
       {
         path: '',
-        component: ListagemFilmesComponent
+        component: ListagemFilmesComponent,
       },
       {
         path: 'cadastro',
         component: CadastroFilmesComponent,
-        pathMatch: 'full'
-      }
-    ]
+        pathMatch: 'full',
+      },
+    ],
   },
   { path: '**', redirectTo: 'filmes' },
-
 ];
 
 @NgModule({
-  imports: [
-    RouterModule.forRoot(routes),
-    FilmesModule
-  ],
-  exports: [RouterModule]
+  imports: [RouterModule.forRoot(routes), FilmesModule],
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
