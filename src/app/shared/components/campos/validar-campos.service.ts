@@ -19,4 +19,9 @@ export class ValidarCamposService {
       return false;
     }
   }
+
+  lengthValidar(control: AbstractControl, errorName: string): number {
+    const error = control.errors[errorName];
+    return error.requiredLength || error.min || error.max || 0;
+  }
 }

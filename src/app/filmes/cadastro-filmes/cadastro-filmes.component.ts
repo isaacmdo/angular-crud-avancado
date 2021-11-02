@@ -29,13 +29,13 @@ export class CadastroFilmesComponent implements OnInit {
       ],
       urlFoto: ['', [Validators.required, Validators.minLength(10)]],
       dataLancamento: ['', [Validators.required]],
-      descricao: [''],
+      descricao: ['', [Validators.minLength(2), Validators.maxLength(256)]],
       nota: [
         0,
         [
           Validators.required,
-          Validators.minLength(0),
-          Validators.maxLength(10),
+          Validators.min(0),
+          Validators.max(10),
         ],
       ],
       urlImdb: ['', [Validators.minLength(10)]],
