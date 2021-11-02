@@ -1,7 +1,7 @@
 <mat-toolbar class="app-title">Cadastrar Filme</mat-toolbar>
 <div class="main-div">
   <mat-card class="center width50">
-    <form [formGroup]="options" (ngSubmit)="salvar()" (ngReset)="reiniciarForm()">
+    <form autocomplete="off" novalidate [formGroup]="options" (ngSubmit)="submit()" (ngReset)="reiniciarForm()">
       <mat-card-content>
         <dio-input-text titulo="Titulo *" [formGroup]="options" controlName="titulo"></dio-input-text>
         <dio-input-text titulo="Link Foto" [formGroup]="options" controlName="urlFoto"></dio-input-text>
@@ -10,7 +10,7 @@
         <dio-input-number titulo="Nota IMDB" [formGroup]="options" controlName="nota" min="0" max="10" step="2">
         </dio-input-number>
         <dio-input-text titulo="Link IMDb" [formGroup]="options" controlName="urlImdb"></dio-input-text>
-        <dio-input-select titulo="Genero *" [formGroup]="options" controlName="genero"></dio-input-select>
+        <dio-input-select titulo="Genero *" [opcoes]="generos" [formGroup]="options" controlName="genero"></dio-input-select>
       </mat-card-content>
       <mat-card-actions>
         <button color="accent" type="submit" mat-raised-button>Salvar</button>
