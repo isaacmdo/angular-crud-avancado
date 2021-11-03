@@ -233,6 +233,78 @@
       "hideRequired": false,
       "floatLabel": "auto",
       "id": 21
+    },
+    {
+      "titulo": "assaddassdasdas",
+      "urlFoto": "sadasasdasdasd",
+      "dataLancamento": "2021-11-09T03:00:00.000Z",
+      "descricao": "",
+      "nota": 0,
+      "urlImdb": "",
+      "genero": "Terror",
+      "hideRequired": false,
+      "floatLabel": "auto",
+      "id": 22
+    },
+    {
+      "titulo": "ssdfdssdsdfsdsdf",
+      "urlFoto": "sddfssdfdsfsdsdf",
+      "dataLancamento": "2021-11-22T03:00:00.000Z",
+      "descricao": "",
+      "nota": 0,
+      "urlImdb": "",
+      "genero": "Aventura",
+      "hideRequired": false,
+      "floatLabel": "auto",
+      "id": 23
+    },
+    {
+      "titulo": "ssdfdssdsdfsdsdf",
+      "urlFoto": "sddfssdfdsfsdsdf",
+      "dataLancamento": "2021-11-22T03:00:00.000Z",
+      "descricao": "",
+      "nota": 0,
+      "urlImdb": "",
+      "genero": "Aventura",
+      "hideRequired": false,
+      "floatLabel": "auto",
+      "id": 24
+    },
+    {
+      "titulo": "ssdfdssdsdfsdsdf",
+      "urlFoto": "sddfssdfdsfsdsdf",
+      "dataLancamento": "2021-11-22T03:00:00.000Z",
+      "descricao": "",
+      "nota": 0,
+      "urlImdb": "",
+      "genero": "Aventura",
+      "hideRequired": false,
+      "floatLabel": "auto",
+      "id": 25
+    },
+    {
+      "titulo": "sdfsdfsdfsdf",
+      "urlFoto": "sdfsdfsdfsdfsdf",
+      "dataLancamento": "2021-11-15T03:00:00.000Z",
+      "descricao": "",
+      "nota": 0,
+      "urlImdb": "",
+      "genero": "Terror",
+      "hideRequired": false,
+      "floatLabel": "auto",
+      "id": 26
+    },
+    {
+      "titulo": "asdasdasdasd",
+      "urlFoto": "asdasdasdasdasd",
+      "dataLancamento": "2021-11-16T03:00:00.000Z",
+      "descricao": "",
+      "nota": 0,
+      "urlImdb": "",
+      "genero": "Terror",
+      "hideRequired": false,
+      "floatLabel": "auto",
+      "id": 27
     }
   ]
 }
