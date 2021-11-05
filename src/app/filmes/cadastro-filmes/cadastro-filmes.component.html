@@ -10,7 +10,8 @@
         <dio-input-number titulo="Nota IMDB" [formGroup]="options" controlName="nota" min="0" max="10" step="2">
         </dio-input-number>
         <dio-input-text titulo="Link IMDb" [formGroup]="options" controlName="urlImdb"></dio-input-text>
-        <dio-input-select titulo="Genero *" [opcoes]="generos" [formGroup]="options" controlName="genero"></dio-input-select>
+        <dio-input-select titulo="Genero *" [opcoes]="generos" [formGroup]="options" controlName="genero">
+        </dio-input-select>
       </mat-card-content>
       <mat-card-actions>
         <button color="accent" type="submit" mat-raised-button>Salvar</button>
