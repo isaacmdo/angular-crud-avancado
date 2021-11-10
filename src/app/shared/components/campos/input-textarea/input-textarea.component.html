@@ -2,9 +2,11 @@
   <mat-form-field class="full-width">
     <textarea matInput [placeholder]="titulo" [name]="controlName" [formControlName]="controlName"></textarea>
     <mat-error *ngIf="validacao.hasErrorValidated(formControl, 'required')">Campo obrigadorio</mat-error>
-    <mat-error *ngIf="validacao.hasErrorValidated(formControl, 'minlength')">O campo pode ter no minimo {{validacao.lengthValidar(formControl, 'minlength')}} caracteres
+    <mat-error *ngIf="validacao.hasErrorValidated(formControl, 'minlength')">O campo pode ter no minimo
+      {{validacao.lengthValidar(formControl, 'minlength')}} caracteres
     </mat-error>
-    <mat-error *ngIf="validacao.hasErrorValidated(formControl, 'maxlength')">O campo pode ter no maximo {{validacao.lengthValidar(formControl, 'maxlength')}}
+    <mat-error *ngIf="validacao.hasErrorValidated(formControl, 'maxlength')">O campo pode ter no maximo
+      {{validacao.lengthValidar(formControl, 'maxlength')}}
       caracteres</mat-error>
   </mat-form-field>
 </div>
