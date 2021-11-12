@@ -20,6 +20,10 @@ export class FilmesService {
     return this.http.post<Filme>(url, filme);
   }
 
+  excluir(id: number): Observable<void> {
+    return this.http.delete<void>(url + id);
+  }
+
   listar(config: ConfigParams): Observable<Filme[]> {
     const configParams = this.configService.configurarParametros(config);
     return this.http.get<Filme[]>(url, { params: configParams });

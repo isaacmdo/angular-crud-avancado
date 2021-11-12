@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MatDialog } from '@angular/material';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { FilmesService } from 'src/app/core/filmes.service';
 import { AlertaComponent } from 'src/app/shared/components/alerta/alerta.component';
 import { ValidarCamposService } from 'src/app/shared/components/campos/validar-campos.service';
@@ -16,13 +16,15 @@ import { Filme } from 'src/app/shared/models/filme';
 export class CadastroFilmesComponent implements OnInit {
   options: FormGroup;
   generos: Array<string>;
+  id: number;
 
   constructor(
     private fb: FormBuilder,
     public validacao: ValidarCamposService,
     private filmeService: FilmesService,
     public dialog: MatDialog,
-    private router: Router
+    private router: Router,
+    private activatedRoute: ActivatedRoute
   ) {}
 
   get f() {
@@ -30,6 +32,11 @@ export class CadastroFilmesComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.id = this.activatedRoute.snapshot.params['id'];
+
+    if(this.id) {
+      this.filmeService.visualizar(this.id).subscribe();
+    }
     this.options = this.fb.group({
       titulo: [
         '',
