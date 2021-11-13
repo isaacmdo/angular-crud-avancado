@@ -1,4 +1,5 @@
 import { HttpClient } from '@angular/common/http';
+import { identifierModuleUrl } from '@angular/compiler';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { ConfigParams } from '../shared/models/config-params';
@@ -18,6 +19,10 @@ export class FilmesService {
 
   salvar(filme: Filme): Observable<Filme> {
     return this.http.post<Filme>(url, filme);
+  }
+
+  editar(filme: Filme): Observable<Filme> {
+    return this.http.put<Filme>(url + filme.id, filme);
   }
 
   excluir(id: number): Observable<void> {

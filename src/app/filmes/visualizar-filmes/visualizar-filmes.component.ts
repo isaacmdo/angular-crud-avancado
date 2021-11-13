@@ -30,7 +30,7 @@ export class VisualizarFilmesComponent implements OnInit {
   }
 
   editar(): void {
-    this.router.navigateByUrl('/filmes/cadastro' + this.id)
+    this.router.navigateByUrl('/filmes/cadastro/' + this.id)
   }
 
   excluir(): void {

@@ -21,14 +21,16 @@
       "genero": "Ação"
     },
     {
-      "id": 3,
-      "titulo": "MIB: Homens de Preto III",
+      "titulo": "MIB: Homens de Preto IIID",
       "urlFoto": "https://m.media-amazon.com/images/M/MV5BMTU2NTYxODcwMF5BMl5BanBnXkFtZTcwNDk1NDY0Nw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
-      "dtLancamento": "2012-25-11T03:00:00.000Z",
+      "dataLancamento": "2021-11-11T03:00:00.000Z",
       "descricao": "Agent J travels in time to M.I.B.'s early days in 1969 to stop an alien from assassinating his friend Agent K and changing history.",
       "nota": 6.8,
-      "urlIMDb": "https://www.imdb.com/title/tt1409024/",
-      "genero": "Ação"
+      "urlImdb": null,
+      "genero": "Ação",
+      "hideRequired": false,
+      "floatLabel": "auto",
+      "id": 3
     },
     {
       "id": 4,
@@ -51,34 +53,40 @@
       "genero": "Drama"
     },
     {
-      "id": 6,
-      "titulo": "Vingadores: Ultimato",
+      "titulo": "Vingadores: Ultimato 2",
       "urlFoto": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
-      "dtLancamento": "2019-04-25T03:00:00.000Z",
+      "dataLancamento": "2019-04-25T03:00:00.000Z",
       "descricao": "After the devastating events of Vingadores: Guerra Infinita (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
       "nota": 8.5,
-      "urlIMDb": "https://www.imdb.com/title/tt4154796/",
-      "genero": "Aventura"
+      "urlImdb": null,
+      "genero": "Aventura",
+      "hideRequired": false,
+      "floatLabel": "auto",
+      "id": 6
     },
     {
-      "id": 7,
-      "titulo": "Capitã Marvel",
+      "titulo": "Capitã Marvel 2",
       "urlFoto": "https://m.media-amazon.com/images/M/MV5BMTE0YWFmOTMtYTU2ZS00ZTIxLWE3OTEtYTNiYzBkZjViZThiXkEyXkFqcGdeQXVyODMzMzQ4OTI@._V1_UX182_CR0,0,182,268_AL_.jpg",
-      "dtLancamento": "2019-03-07T03:00:00.000Z",
+      "dataLancamento": "2019-03-07T03:00:00.000Z",
       "descricao": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
       "nota": 6.9,
-      "urlIMDb": "https://www.imdb.com/title/tt4154664/",
-      "genero": "Ação"
+      "urlImdb": null,
+      "genero": "Ação",
+      "hideRequired": false,
+      "floatLabel": "auto",
+      "id": 7
     },
     {
-      "id": 8,
-      "titulo": "Shazam!",
+      "titulo": "Shazam! 8",
       "urlFoto": "https://m.media-amazon.com/images/M/MV5BYTE0Yjc1NzUtMjFjMC00Y2I3LTg3NGYtNGRlMGJhYThjMTJmXkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_UX182_CR0,0,182,268_AL_.jpg",
-      "dtLancamento": "2019-04-04T03:00:00.000Z",
+      "dataLancamento": "2021-11-19T03:00:00.000Z",
       "descricao": "A newly fostered young boy in search of his mother instead finds unexpected super powers and soon gains a powerful enemy.",
       "nota": 7.1,
-      "urlIMDb": "https://www.imdb.com/title/tt0448115/",
-      "genero": "Comédia"
+      "urlImdb": null,
+      "genero": "Comédia",
+      "hideRequired": false,
+      "floatLabel": "auto",
+      "id": 8
     },
     {
       "titulo": "Duna",
